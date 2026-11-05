@@ -142,7 +142,6 @@ const typewriterElement = document.getElementById('typewriter');
 const typewriterRoles = [
     "Computer Science Student",
     "Full-Stack Web Developer",
-    "Frontend Specialist",
     "Problem Solver & Tech Explorer"
 ];
 
@@ -578,7 +577,7 @@ function initContactForm() {
     if (!form) return;
 
     form.addEventListener('submit', async function (e) {
-        e.preventDefau
+        e.preventDefault();
 
         const submitBtn = form.querySelector('.contact-submit-btn');
         const originalContent = submitBtn ? submitBtn.innerHTML : ''
