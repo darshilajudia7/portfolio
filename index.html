@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Darshil Ajudia | Full-Stack Web Developer & Computer Science Student</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio of Darshil Ajudia, a Computer Science student and Full-Stack Web Developer building high-performance, responsive web applications.">
+    <meta name="keywords"
+        content="Darshil Ajudia, Web Developer, Computer Science Student, Full-Stack Developer, Portfolio, Frontend, Backend, Responsive Design, Software Engineer">
+    <meta name="author" content="Darshil Ajudia">
+    <meta name="publisher" content="Darshil Ajudia">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#090d16">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://darshilajudia.com/">
+    <meta property="og:site_name" content="Darshil Ajudia Portfolio">
+    <meta property="og:title" content="Darshil Ajudia | Full-Stack Web Developer">
+    <meta property="og:description"
+        content="Computer Science student & Full-Stack Developer specializing in high-performance web applications, and modern frontend design.">
+    <meta property="og:image" content="./profile.jpeg">
+    <meta property="og:image:secure_url" content="./profile.jpeg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- WhatsApp Specific Reliability Tags -->
+    <meta property="og:image:alt" content="Darshil Ajudia - Full-Stack Developer Portfolio">
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress-bar" role="progressbar" aria-label="Page Scroll Progress" aria-valuenow="0"
+        aria-valuemin="0" aria-valuemax="100"></div>
+
+    <!-- Preloader -->
+    <div id="preloader" role="status" aria-live="polite" aria-label="Loading Darshil Ajudia Portfolio">
+        <div class="loader-badge-container">
+            <div class="loader-logo-ring"></div>
+            <div class="loader-logo">DA</div>
+        </div>
+        <div class="loader-percentage">0%</div>
+        <div class="loader-bar-track">
+            <div class="loader-bar-fill"></div>
+        </div>
+        <div class="loader-status">Initializing modules...</div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Main Navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#home" aria-label="Darshil Ajudia Home">
+                    <span>DA</span>
+                </a>
+
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center gap-lg-1">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education-experience">Journey</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link px-4" id="contact-btn" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="home-section" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div
+                        class="col-12 col-lg-7 home-content d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start order-2 order-lg-1 reveal-left">
+                        <span class="cursive-eyebrow">
+                            <i class='bx bx-code-alt'></i> Hello, World! I am
+                        </span>
+
+                        <h1>
+                            <span class="highlight-text">Darshil Ajudia</span>
+                        </h1>
+
+                        <h2 class="text-white">
+                            I'm a <span id="typewriter"></span><span class="typewriter-cursor">&nbsp;</span>
+                        </h2>
+
+                        <p>
+                            Transforming concepts into high-performance, responsive web applications.
+                            Specialized in modern frontend architecture, robust backend systems, and seamless user
+                            experiences.
+                        </p>
+
+                        <div
+                            class="hero-cta-group d-flex gap-3 flex-wrap justify-content-center justify-content-lg-start">
+                            <a href="#projects" class="custom-btn" id="viewproject"
+                                aria-label="Explore featured projects">
+                                <i class="bx bx-folder-open"></i>
+                                <span>Explore Projects</span>
+                            </a>
+                            <a href="#contact" class="custom-btn" id="contactme" aria-label="Contact Darshil Ajudia">
+                                <i class='bx bx-envelope'></i>
+                                <span>Get in Touch</span>
+                            </a>
+                        </div>
+
+                        <div class="mt-4 d-flex align-items-center gap-3">
+                            <span class="text-white-50 small fw-semibold">Connect with me:</span>
+                            <a href="https://github.com/darshilajudia7" aria-label="Visit GitHub profile"
+                                target="_blank" rel="noopener noreferrer" class="social-icon">
+                                <i class="bx bxl-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/darshil-ajudia-62331232b"
+                                aria-label="Visit LinkedIn profile" target="_blank" rel="noopener noreferrer"
+                                class="social-icon">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5 hero-image-wrapper order-1 order-lg-2 mb-4 mb-lg-0 reveal-right">
+                        <div class="hero-glow-orb"></div>
+                        <div class="profile-container">
+                            <div class="profile-ring"></div>
+                            <img src="./profile.jpeg" alt="Darshil Ajudia - Full Stack Web Developer" class="profile"
+                                width="340" height="340" fetchpriority="high" loading="eager">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle-cursive">~ my background &amp; passion ~</span>
+                    <h2 class="section-heading">About <span class="highlight-text">Me</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Dedicated to creating clean, performant, and purposeful software that delivers genuine value.
+                    </p>
+                </div>
+
+                <div class="about-intro-box reveal-up">
+                    <h3>Turning Ideas Into Production Reality</h3>
+                    <div class="my-3">
+                        <span class="cursive-quote">"Crafting clean code, responsive layouts, and intuitive user
+                            experiences with care."</span>
+                    </div>
+                    <p>
+                        I build real-world web applications by combining thoughtful UI design with resilient backend
+                        logic.
+                        With extensive hands-on experience in full-stack architecture, modern web frameworks, and
+                        relational databases,
+                        I prioritize code clarity, speed, and cross-device responsiveness. Every project is an
+                        opportunity
+                        to engineer practical solutions that solve real business and user problems.
+                    </p>
+                </div>
+
+                <div class="row g-3 g-md-4 justify-content-center reveal-stagger">
+
+                    <div class="col-6 col-lg-3">
+                        <div class="info-card text-center">
+                            <div class="icon-box mx-auto mb-3">
+                                <i class='bx bx-user'></i>
+                            </div>
+                            <div class="card-label">Full Name</div>
+                            <p class="card-value">Darshil Ajudia</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="info-card text-center">
+                            <div class="icon-box mx-auto mb-3">
+                                <i class='bx bx-map-pin'></i>
+                            </div>
+                            <div class="card-label">Location</div>
+                            <p class="card-value">Rajkot, Gujarat, IN</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="info-card text-center">
+                            <div class="icon-box mx-auto mb-3">
+                                <i class='bx bx-envelope'></i>
+                            </div>
+                            <div class="card-label">Email</div>
+                            <p class="card-value text-break">darshilajudia.7@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="info-card degree-card text-center">
+                            <div class="icon-box degree-icon-box mx-auto mb-3">
+                                <i class='bx bxs-graduation'></i>
+                            </div>
+                            <div class="card-label">Degree</div>
+                            <p class="card-value">B.Tech in CSE</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row g-3 g-md-4 mt-2 reveal-stagger">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="info-card modern-card">
+                            <div class="card-header-custom">
+                                <div class="icon-circle">
+                                    <i class='bx bx-bulb'></i>
+                                </div>
+                                <h4>Problem Solver</h4>
+                            </div>
+                            <p>
+                                I break complex requirements down into modular, maintainable logic and deliver
+                                efficient, testable software solutions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="info-card modern-card">
+                            <div class="card-header-custom">
+                                <div class="icon-circle">
+                                    <i class='bx bx-devices'></i>
+                                </div>
+                                <h4>Responsive Design</h4>
+                            </div>
+                            <p>
+                                Every layout is crafted mobile-first, ensuring pixel-perfect fidelity across
+                                smartphones, tablets, laptops, and ultra-wide screens.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="info-card modern-card">
+                            <div class="card-header-custom">
+                                <div class="icon-circle">
+                                    <i class='bx bx-trending-up'></i>
+                                </div>
+                                <h4>Fast Learner</h4>
+                            </div>
+                            <p>
+                                Consistently learning cutting-edge industry frameworks, security best practices, and
+                                modern cloud deployment standards.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-center gap-3 mt-5 flex-wrap reveal-up">
+                    <button class="custom-btn" id="downloadresume" type="button"
+                        aria-label="Download Darshil Ajudia Resume">
+                        <i class='bx bx-download'></i>
+                        <span>Download Resume</span>
+                    </button>
+                    <a href="#contact" class="custom-btn" id="talktome" aria-label="Let's talk with Darshil">
+                        <i class='bx bx-chat'></i>
+                        <span>Let's Talk</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section class="education-section" id="education-experience">
+            <div class="container">
+
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle-cursive">~ academic &amp; career milestones ~</span>
+                    <h2 class="section-heading">Education &amp; <span class="highlight-text">Experience</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        A chronological record of my academic training, technical certifications, and hands-on industry
+                        internship.
+                    </p>
+                </div>
+
+                <div class="text-center reveal-up">
+                    <div class="tab-wrapper" role="tablist">
+                        <button class="tab-btn active" data-filter="education" role="tab" aria-selected="true"
+                            aria-label="Show Education Timeline">
+                            <i class='bx bxs-graduation'></i>
+                            <span>Education</span>
+                        </button>
+                        <button class="tab-btn" data-filter="experience" role="tab" aria-selected="false"
+                            aria-label="Show Experience Timeline">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                            <span>Experience</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="timeline" id="timeline"></div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skill-section" id="skills">
+            <div class="container">
+
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle-cursive">~ technical proficiencies ~</span>
+                    <h2 class="section-heading">My <span class="highlight-text">Skills</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        A curated toolkit of frontend, backend, database, and DevOps technologies I utilize to build
+                        modern web products.
+                    </p>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-5 reveal-up" id="skill-filter-container">
+                    <button class="filter-btn active" data-filter="all" type="button">
+                        <i class='bx bx-grid-alt'></i> All <span class="badge-count" id="count-all">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="frontend" type="button">
+                        <i class='bx bx-layout'></i> Frontend <span class="badge-count" id="count-frontend">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="backend" type="button">
+                        <i class='bx bx-server'></i> Backend <span class="badge-count" id="count-backend">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="database" type="button">
+                        <i class='bx bx-data'></i> Database <span class="badge-count" id="count-database">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="tools" type="button">
+                        <i class='bx bx-wrench'></i> Tools <span class="badge-count" id="count-tools">0</span>
+                    </button>
+                </div>
+
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3 g-md-4 reveal-stagger"
+                    id="tech-grid"></div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle-cursive">~ featured works &amp; code ~</span>
+                    <h2 class="section-heading">My <span class="highlight-text">Projects</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Real-world software projects demonstrating end-to-end full-stack capabilities, clean code, and
+                        user-centric architecture.
+                    </p>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-5 reveal-up">
+                    <button class="filter-btn active" data-filter="all" type="button" aria-label="Filter all projects">
+                        <i class='bx bx-grid-alt'></i> All Projects
+                        <span class="badge-count" id="project-count-all">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="frontend" type="button" aria-label="Filter frontend projects">
+                        <i class='bx bx-layout'></i> Frontend
+                        <span class="badge-count" id="project-count-frontend">0</span>
+                    </button>
+                    <button class="filter-btn" data-filter="fullstack" type="button" aria-label="Filter full stack projects">
+                        <i class='bx bx-code-alt'></i> Full Stack
+                        <span class="badge-count" id="project-count-fullstack">0</span>
+                    </button>
+                </div>
+
+                <div class="row g-4 reveal-stagger" id="project-grid"></div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+
+                <div class="section-header reveal-up">
+                    <span class="section-subtitle-cursive">~ let's start a conversation ~</span>
+                    <h2 class="section-heading">Contact <span class="highlight-text">Me</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Have an opportunity, project idea, or question? Feel free to drop a message.
+                    </p>
+                </div>
+
+                <div class="row g-4 g-lg-5 align-items-center">
+
+                    <div class="col-12 col-lg-5 contact-info-panel reveal-left">
+
+                        <h3>Let's Collaborate &amp; Build</h3>
+                        <p>
+                            I am open to web development internships, full-time developer roles, and freelance
+                            project collaborations. Let's create something extraordinary together!
+                        </p>
+
+                        <div class="d-flex flex-column gap-3 contact-channels-list">
+
+                            <div class="contact-channel">
+                                <div class="contact-channel-icon">
+                                    <i class='bx bx-map'></i>
+                                </div>
+                                <div class="contact-channel-body">
+                                    <span class="contact-channel-label">Location</span>
+                                    <div class="contact-channel-value">Rajkot, Gujarat, India</div>
+                                </div>
+                            </div>
+
+                            <a href="mailto:darshilajudia.7@gmail.com"
+                                class="contact-channel contact-channel-interactive"
+                                aria-label="Send email to Darshil Ajudia">
+                                <div class="contact-channel-icon">
+                                    <i class='bx bx-envelope'></i>
+                                </div>
+                                <div class="contact-channel-body">
+                                    <span class="contact-channel-label">Email</span>
+                                    <div class="contact-channel-value">darshilajudia.7@gmail.com</div>
+                                </div>
+                                <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                            </a>
+
+                            <a href="tel:+919106034836" class="contact-channel contact-channel-interactive"
+                                aria-label="Call Darshil Ajudia">
+                                <div class="contact-channel-icon">
+                                    <i class='bx bx-phone'></i>
+                                </div>
+                                <div class="contact-channel-body">
+                                    <span class="contact-channel-label">Phone</span>
+                                    <div class="contact-channel-value">+91 91060 34836</div>
+                                </div>
+                                <i class='bx bx-right-arrow-alt contact-arrow'></i>
+                            </a>
+
+                        </div>
+
+                        <div class="pt-4">
+                            <span class="d-block text-white-50 small mb-2 fw-semibold">Follow my developer
+                                activity:</span>
+                            <div class="d-flex gap-3">
+                                <a href="https://github.com/darshilajudia7" aria-label="GitHub Profile" target="_blank"
+                                    rel="noopener noreferrer" class="social-icon">
+                                    <i class="bx bxl-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/darshil-ajudia-62331232b"
+                                    aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer"
+                                    class="social-icon">
+                                    <i class="bx bxl-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-7 reveal-right">
+                        <div class="contactform-card">
+                            <div class="contactform-header mb-4">
+                                <h4 class="mb-1 text-white fw-bold d-flex align-items-center gap-2">
+                                    <i class='bx bx-message-square-detail highlight-text'></i> Send a Message
+                                </h4>
+                                <p class="text-white-50 small mb-0">Fill out the form below and I will get back to you
+                                    shortly.</p>
+                            </div>
+
+                            <form method="post" class="contactform" aria-label="Contact Message Form"
+                                action="contact.php">
+                                <div class="row g-3">
+
+                                    <div class="col-12 col-md-6">
+                                        <label for="name" class="form-label">
+                                            <i class='bx bx-user'></i> Full Name
+                                        </label>
+                                        <input type="text" name="full_name" id="name" class="form-control"
+                                            placeholder="Your full name" required>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <label for="email" class="form-label">
+                                            <i class='bx bx-envelope'></i> Email Address
+                                        </label>
+                                        <input type="email" name="email" id="email" class="form-control"
+                                            placeholder="Enter your email" required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="subject" class="form-label">
+                                            <i class='bx bx-purchase-tag-alt'></i> Subject
+                                        </label>
+                                        <input type="text" name="subject" id="subject" class="form-control"
+                                            placeholder="Enter your subject" required>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="message" class="form-label">
+                                            <i class='bx bx-edit-alt'></i> Message
+                                        </label>
+                                        <textarea name="message" id="message" class="form-control" rows="5"
+                                            placeholder="Enter your message" required></textarea>
+                                    </div>
+
+                                    <div class="col-12 pt-2">
+                                        <button type="submit" class="contact-submit-btn">
+                                            <i class='bx bx-send'></i>
+                                            <span>Send Message</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row align-items-center g-4">
+
+                <div class="col-12 col-md-4 text-center text-md-start">
+                    <h3 class="h4 mb-1 text-white fw-bold">Darshil Ajudia</h3>
+                    <p class="text-white-50 small mb-0">Full-Stack Web Developer &amp; CSE Student</p>
+                </div>
+
+                <div class="col-12 col-md-5 footer-nav text-center">
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#education-experience">Journey</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 text-center text-md-end">
+                    <div class="d-inline-flex gap-2">
+                        <a href="https://github.com/darshilajudia7" aria-label="GitHub Repository Link" target="_blank"
+                            rel="noopener noreferrer" class="footer-social-icon">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/darshil-ajudia-62331232b"
+                            aria-label="LinkedIn Profile Link" target="_blank" rel="noopener noreferrer"
+                            class="footer-social-icon">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Scroll To Top Button -->
+    <button id="scrollToTop" type="button" aria-label="Scroll back to top of page">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>
+
+    <!-- Feedback Pop-up Modal -->
+    <div id="portfolio-popup" class="portfolio-popup-overlay" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-labelledby="popup-title">
+        <div class="portfolio-popup-card">
+            <button type="button" class="popup-close-btn" id="popup-close-btn" aria-label="Close pop-up">
+                <i class='bx bx-x'></i>
+            </button>
+            <div class="popup-icon-container success" id="popup-icon-container">
+                <div class="popup-pulse-ring"></div>
+                <i class='bx bx-check-circle' id="popup-icon"></i>
+            </div>
+            <h3 class="popup-title" id="popup-title">Data Inserted Successfully!</h3>
+            <p class="popup-message" id="popup-message">Thank you for reaching out! Your message has been saved in the
+                database.</p>
+            <button type="button" class="popup-btn" id="popup-confirm-btn">
+                <span>Great, Thanks!</span>
+                <i class='bx bx-check'></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
